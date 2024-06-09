@@ -1,11 +1,11 @@
 ﻿using MyFirstApplication;
 
 // See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
-//puts local function to use
-//single line comment
-HouseExample(); 
+// puts local function to use
+// single line comment
+// HouseExample(); 
 
 /*
 multi-line comment
@@ -14,17 +14,31 @@ are inside of members and are private by default. This means
 They are specific to that member and can only be called 
 inside that member. 
 */
-void HouseExample() //declares local function
+
+// Lesson Examples 
+// HouseExample();
+Lesson1Example();
+
+void HouseExample() 
 {
-    //this inner part can be done without the outer function
     House myHouse = new House();
     myHouse.DoorOpenClose();
 }
 
+// Lesson 1 Value Types
+void Lesson1Example()
+{
+    Lesson1 myLesson = new Lesson1();
+    myLesson.IntMinMax();
+    myLesson.IntegralExample();
+    myLesson.ConvertFloatToInt();
+    myLesson.LongFromInt();
+}
 
 /*
+
  This local function is for my first exercise lab
- */
+ 
 myLocalFunction();
 
 void myLocalFunction()
@@ -33,4 +47,4 @@ void myLocalFunction()
     Console.WriteLine("I am new to CSharp");
     Console.WriteLine("This CSharp course is cool");
     Console.WriteLine("I am learning new stuff everyday");
-}
+} */
