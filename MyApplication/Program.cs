@@ -1,4 +1,5 @@
 ﻿using MyFirstApplication;
+//using MyFirstApplication.Exercise1;
 
 // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
@@ -17,7 +18,7 @@ inside that member.
 
 // Lesson Examples 
 // HouseExample();
-Lesson1Example();
+// Lesson1Example();
 
 void HouseExample() 
 {
@@ -26,6 +27,8 @@ void HouseExample()
 }
 
 // Lesson 1 Value Types
+
+
 void Lesson1Example()
 {
     Lesson1 myLesson = new Lesson1();
@@ -34,6 +37,8 @@ void Lesson1Example()
     myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
 }
+
+
 
 /*
 
@@ -48,3 +53,13 @@ void myLocalFunction()
     Console.WriteLine("This CSharp course is cool");
     Console.WriteLine("I am learning new stuff everyday");
 } */
+
+
+// Exercises / labs
+
+Exercise1Example();
+void Exercise1Example()
+{
+    Exercise1 myExercise = new Exercise1();
+    myExercise.NumSysValue();
+}
