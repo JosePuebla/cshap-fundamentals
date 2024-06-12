@@ -19,7 +19,7 @@ inside that member.
 // Lesson Examples 
 // HouseExample();
 // Lesson1Example();
-Lesson2Example();
+//Lesson2Example();
 
 // Lesson 2 Strings
 void Lesson2Example()
@@ -74,7 +74,19 @@ void myLocalFunction()
 
 // Exercises / labs
 
-Exercise1Example();
+// Exercise 2 Lab
+
+
+
+// Exercise1Example();
+Exercise2Lab();
+void Exercise2Lab()
+{
+    Exercise2 myExercise = new Exercise2();
+    myExercise.TaskOne();
+    myExercise.TaskTwo();
+    myExercise.TaskThree();
+}
 void Exercise1Example()
 {
     Exercise1 myExercise = new Exercise1();
