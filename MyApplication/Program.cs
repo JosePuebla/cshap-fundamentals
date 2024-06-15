@@ -20,7 +20,7 @@ inside that member.
 // HouseExample();
 // Lesson1Example();
 // Lesson2Example();
-Lesson3Example();
+// Lesson3Example();
 
 // Lesson 3 Operators
 void Lesson3Example()
@@ -99,10 +99,18 @@ void myLocalFunction()
 
 // Exercise 2 Lab
 
+// Exercise 3 Lab
 
+Exercise3Lab();
+void Exercise3Lab()
+{
+    Exercise3 myExercise = new Exercise3();
+    Console.WriteLine(myExercise.TaskOne(4));
+    myExercise.TaskTwo();
+    myExercise.TaskThree(4, 5);
+}
 
-// Exercise1Example();
-//Exercise2Lab();
+// Exercise2Lab();
 void Exercise2Lab()
 {
     Exercise2 myExercise = new Exercise2();
@@ -115,3 +123,4 @@ void Exercise1Example()
     Exercise1 myExercise = new Exercise1();
     myExercise.NumSysValue();
 }
+
