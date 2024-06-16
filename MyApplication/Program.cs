@@ -21,6 +21,26 @@ inside that member.
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
+Lesson4Example();
+
+// Lesson 4 Control Flow
+
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(8);
+    //myLesson4.BasicIfElseStatement(12);
+    //myLesson4.BasicIfElseChainStatement(5);
+    //myLesson4.BasicAndOrCondition(20, 20);
+    //Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    //myLesson4.BasicSwitchStatement(5);
+    //myLesson4.BasicWhileStatement();
+    //myLesson4.BasicDoStatement();
+    //myLesson4.BasicForStatement();
+    //myLesson4.BasicForEachStatement();
+    myLesson4.BasicJumpStatement();
+
+}
 
 // Lesson 3 Operators
 void Lesson3Example()
@@ -98,10 +118,9 @@ void myLocalFunction()
 // Exercises / labs
 
 // Exercise 2 Lab
-
 // Exercise 3 Lab
+//Exercise3Lab();
 
-Exercise3Lab();
 void Exercise3Lab()
 {
     Exercise3 myExercise = new Exercise3();
