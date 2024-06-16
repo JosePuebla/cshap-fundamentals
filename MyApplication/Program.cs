@@ -21,7 +21,7 @@ inside that member.
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
-Lesson4Example();
+// Lesson4Example();
 
 // Lesson 4 Control Flow
 
@@ -117,9 +117,20 @@ void myLocalFunction()
 
 // Exercises / labs
 
-// Exercise 2 Lab
+// Exercise 4 Lab
+Exercise4Lab();
+
+void Exercise4Lab()
+{
+    Exercise4 myExercise = new Exercise4();
+    myExercise.TaskOne("word", "Word");
+    Console.WriteLine(myExercise.TaskTwo('F'));
+    myExercise.TaskThree();
+}
+
+
 // Exercise 3 Lab
-//Exercise3Lab();
+// Exercise3Lab();
 
 void Exercise3Lab()
 {
@@ -129,6 +140,7 @@ void Exercise3Lab()
     myExercise.TaskThree(4, 5);
 }
 
+// Exercise 2 Lab
 // Exercise2Lab();
 void Exercise2Lab()
 {
