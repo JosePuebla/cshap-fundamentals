@@ -13,10 +13,6 @@ internal class Exercise5
     {
         string result = grade switch
         {
-            /*"blue" => "Favorite color is blue",
-            "red" => "Favorite color is red",
-            "green" => "Favorite color is green",
-            _ => "Not Sure" */
             'E' => "Excellent",
             'V' => "Very Good",
             'G' => "Good",

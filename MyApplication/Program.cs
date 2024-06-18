@@ -156,6 +156,7 @@ Exercise5Lab();
 void Exercise5Lab()
 {
     Exercise5 myExercise = new Exercise5();
+
     Console.WriteLine(myExercise.TaskOne(23, 35));
 
     Console.WriteLine(myExercise.TaskTwo('B'));
