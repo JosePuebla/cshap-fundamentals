@@ -22,7 +22,7 @@ inside that member.
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
-Lesson5Example();
+// Lesson5Example();
 
 // Lesson 5 expressions and pattern matching
 void Lesson5Example()
@@ -149,6 +149,19 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+// Exercise 5 Lab 
+Exercise5Lab();
+
+void Exercise5Lab()
+{
+    Exercise5 myExercise = new Exercise5();
+    Console.WriteLine(myExercise.TaskOne(23, 35));
+
+    Console.WriteLine(myExercise.TaskTwo('B'));
+
+    myExercise.TaskThree(20);
+}
 
 // Exercise 4 Lab
 // Exercise4Lab();
