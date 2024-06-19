@@ -25,7 +25,7 @@ inside that member.
 // Lesson5Example();
 // Lesson6Examples();
 // Lesson7Example();
-Lesson8Example();
+// Lesson8Example();
 
 void Lesson8Example()
 {
@@ -239,8 +239,21 @@ void myLocalFunction()
 
 // Exercises / labs
 
+// Exercise 8 Lab
+Exercise8Lab();
+
+void Exercise8Lab()
+{
+    Exercise8 conversion = new Exercise8();
+    conversion.FeetToInches(3);
+
+    // Task Two Static Method
+    Exercise8.PolygonArea(2, 3);
+
+}
+
 // Exercise 7 Lab (demo may not be needed but doing it as practice)
-//Exercise7Lab();
+// Exercise7Lab();
 
 void Exercise7Lab()
 {
