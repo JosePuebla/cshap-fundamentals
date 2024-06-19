@@ -23,7 +23,32 @@ inside that member.
 // Lesson3Example();
 // Lesson4Example();
 // Lesson5Example();
-Lesson6Examples();
+// Lesson6Examples();
+Lesson7Example();
+
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly Struct
+    Student myStudent = new Student(10, "Roger");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+    Console.WriteLine();
+
+    // Record 
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+
+}
 
 // Lesson 6 
 void Lesson6Examples()
@@ -194,7 +219,7 @@ void myLocalFunction()
 
 // Exercises / labs
 // Exercise 6 Lab
-Exercise6Lab();
+// Exercise6Lab();
 
 void Exercise6Lab()
 {
