@@ -24,7 +24,7 @@ inside that member.
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Examples();
-Lesson7Example();
+// Lesson7Example();
 
 void Lesson7Example()
 {
@@ -218,6 +218,17 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+// Exercise 7 Lab (demo may not be needed but doing it as practice)
+//Exercise7Lab();
+
+void Exercise7Lab()
+{
+    Exercise7.Boat boat = new Exercise7.Boat("Red", "S.S. Sandy");
+    Console.WriteLine(boat.boatColor);
+    Console.WriteLine(boat.boatName);
+    Console.WriteLine(boat);
+}
 // Exercise 6 Lab
 // Exercise6Lab();
 
