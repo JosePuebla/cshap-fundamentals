@@ -26,6 +26,17 @@ inside that member.
 // Lesson6Examples();
 // Lesson7Example();
 // Lesson8Example();
+Lesson9Example();
+
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+}
 
 void Lesson8Example()
 {
@@ -240,7 +251,7 @@ void myLocalFunction()
 // Exercises / labs
 
 // Exercise 8 Lab
-Exercise8Lab();
+//Exercise8Lab();
 
 void Exercise8Lab()
 {
