@@ -35,7 +35,7 @@ void Lesson6Examples()
     theHat($"I tried on a {myLessonHats.HatType} hat that was size {myLessonHats.HatSize}");
 
     Console.WriteLine();
-
+/*
     // Constructor with 1 parameter
     Lesson6 myOther6 = new Lesson6(22);
 
@@ -54,6 +54,7 @@ void Lesson6Examples()
     Console.WriteLine(charlie);
 
     Console.WriteLine();
+
     // Multi-cast delegate
     Lesson6.TryOn theNewHat, hangTheHat, multiHat;
     theNewHat = myLesson6.TryOnHat;
@@ -63,7 +64,7 @@ void Lesson6Examples()
     theNewHat($"Trying a {myLessonHats.HatType} hat");
     hangTheHat($"Hanging up my {myLessonHats.HatType} hat");
     multiHat($"My {myLessonHats.HatType} hat");
-
+    */
 }
 
 
@@ -192,6 +193,16 @@ void myLocalFunction()
 
 
 // Exercises / labs
+// Exercise 6 Lab
+Exercise6Lab();
+
+void Exercise6Lab()
+{
+    Exercise6 shoeExample = new Exercise6(9, "Nike");
+    Exercise6.TryOn theShoe = shoeExample.TaskThree;
+    theShoe($"I tried on a {shoeExample.ShoeType} shoe that was size {shoeExample.ShowSize}");
+
+}
 
 // Exercise 5 Lab 
 //Exercise5Lab();
