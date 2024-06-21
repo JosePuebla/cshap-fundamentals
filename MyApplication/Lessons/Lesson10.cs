@@ -28,7 +28,7 @@ internal class Lesson10
     // property with private set
     public long Phone { get; private set; }
 
-    // Expression bodid member property
+    // Expression body member property
     public string Address
     {
         get => _address;

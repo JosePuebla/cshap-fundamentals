@@ -28,7 +28,7 @@ inside that member.
 // Lesson8Example();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdate();
+// HouseUpdate();
 
 void HouseUpdate()
 {
@@ -294,6 +294,52 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+// Exercise 10 Lab
+
+// HorseExample();
+// BoatExample();
+
+void HorseExample()
+{
+    // Calling Default
+    Horse myHorse = new Horse();
+    Console.WriteLine(myHorse.HorseSpecies);
+    Console.WriteLine(myHorse.ManeStyle);
+    Console.WriteLine();
+
+    // Calling Constructor with 2 parameters
+    Horse secondHorse = new Horse("short" , "Quarter Horse");
+    Console.WriteLine(secondHorse.HorseSpecies);
+    Console.WriteLine();
+
+    // Calling Constructor with all 3 parameters
+    Horse thirdHorse = new Horse("Long mane", "Zerba", "Zoo Animal");
+    Console.WriteLine(thirdHorse.HorseSpecies);
+    Console.WriteLine(thirdHorse.ManeStyle);
+    Console.WriteLine(secondHorse.HorseJob);
+}
+
+void BoatExample()
+{
+    // Calling Default
+    Boat myBoat = new Boat();
+    Console.WriteLine(myBoat.BoatSizeFeet);
+    Console.WriteLine();
+
+    // Calling Constructor with 2 parameters
+    Boat secondBoat = new Boat("Red", 35);
+    Console.WriteLine(secondBoat.BoatSizeFeet);
+    Console.WriteLine(secondBoat.BoatBuild);
+    Console.WriteLine();
+
+    // Calling Constructor with 3 parameters
+    Boat thirdBoat = new Boat("blue", "sailboat", 40);
+    Console.WriteLine(thirdBoat.BoatColor);
+    Console.WriteLine(thirdBoat.BoatBuild); // using to test
+    Console.WriteLine(thirdBoat.BoatSizeFeet);
+
+}
 
 // Exercise 8 Lab
 //Exercise8Lab();
