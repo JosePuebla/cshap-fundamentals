@@ -26,7 +26,52 @@ inside that member.
 // Lesson6Examples();
 // Lesson7Example();
 // Lesson8Example();
-Lesson9Example();
+// Lesson9Example();
+// Lesson10Example();
+HouseUpdate();
+
+void HouseUpdate()
+{
+    // Calling Default
+    House myHouse = new House();
+    Console.WriteLine(myHouse.RoofType);
+    myHouse.DoorOpenClose();
+    Console.WriteLine();
+
+    // Calling Constructor with 2 parameters
+    House mySecond = new House("Straw", "bamboo");
+    Console.WriteLine(mySecond.WindowSize);
+    mySecond.DoorOpenClose();
+    Console.WriteLine();
+
+    // Calling Constructor with 4 parameters
+    House myThird = new House("dirt", "plastic", "green", 40);
+    Console.WriteLine(myThird.Foundation);
+    myThird.DoorOpenClose();
+
+}
+
+void Lesson10Example()
+{
+    Lesson10 myLesson10 = new Lesson10();
+    // Normal property
+    myLesson10.FirstName = "Paul";
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Calling Auto(bots) Property
+    // myLesson10.LastName = "Smith";  // only workds in Lesson10 constructor
+    Console.WriteLine(myLesson10.Id); // default value
+    myLesson10.Id = 1500;
+    Console.WriteLine(myLesson10.Id); // get 1500
+
+    // Expression Body Property
+    myLesson10.Address = "123 Main St.";
+    Console.WriteLine(myLesson10.Address);
+
+    // Second constructor
+    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+    Console.WriteLine(myOther10.ZipCode);
+}
 
 void Lesson9Example()
 {
