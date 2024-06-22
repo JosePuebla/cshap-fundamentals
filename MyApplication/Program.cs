@@ -31,7 +31,7 @@ inside that member.
 // HouseUpdate();
 // Lesson11Example();
 //Lesson12Example();
-CondoExample();
+//CondoExample();
 
 void CondoExample()
 {
@@ -331,7 +331,7 @@ void myLocalFunction()
 // Exercise 10 Lab
 
 // HorseExample();
-// BoatExample();
+BoatExample();
 
 void HorseExample()
 {
@@ -340,6 +340,7 @@ void HorseExample()
     Horse myHorse = new Horse();
     Console.WriteLine(myHorse.HorseSpecies);
     Console.WriteLine(myHorse.ManeStyle);
+    myHorse.RunWalk("Quarter Horse");
     Console.WriteLine();
 
     // Calling Constructor with 2 parameters
@@ -360,6 +361,8 @@ void HorseExample()
     Console.WriteLine(pony.HorseJob);
     Console.WriteLine(pony.Gender);
     Console.WriteLine(pony.ManeStyle);
+    pony.RunWalk();
+    pony.EatSleep();
     Console.WriteLine();
 
     Pony secondPony = new Pony("Short", "Show Pony", "Female");
@@ -373,6 +376,7 @@ void BoatExample()
     // Calling Default
     Boat myBoat = new Boat();
     Console.WriteLine(myBoat.BoatSizeFeet);
+    myBoat.MotorOnOff("Speedboat");
     Console.WriteLine();
 
     // Calling Constructor with 2 parameters
@@ -386,6 +390,10 @@ void BoatExample()
     Console.WriteLine(thirdBoat.BoatColor);
     Console.WriteLine(thirdBoat.BoatBuild); // using to test
     Console.WriteLine(thirdBoat.BoatSizeFeet);
+
+    Sailboat sailboat = new Sailboat();
+    sailboat.MotorOnOff();
+    sailboat.RaiseLowerSails();
 
 }
 

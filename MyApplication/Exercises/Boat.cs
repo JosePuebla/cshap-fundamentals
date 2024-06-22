@@ -38,9 +38,14 @@ internal class Boat
         BoatSizeFeet = boatSizeFeet;
     }
 
-    public void MotorOnOff()
+    public virtual void MotorOnOff()
     {
         Console.WriteLine($"The boat's motor is now turned on.");
+    }
+
+    public void MotorOnOff(string boatBuild)
+    {
+        Console.WriteLine($"{boatBuild}'s motor is now turned off");
     }
 
 } // end class
@@ -79,6 +84,10 @@ internal class Sailboat : Boat
         _sailCount = sailCount;
     }
 
+    public override void MotorOnOff()
+    {
+        Console.WriteLine($"The {BoatBuild}'s motor is now turned on low.");
+    }
     public void RaiseLowerSails()
     {
         Console.WriteLine("Sails have been lowered");

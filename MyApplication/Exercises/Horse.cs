@@ -25,9 +25,14 @@ public class Horse
         HorseJob = horseJob;
     }
 
-    public void RunWalk()
+    public virtual void RunWalk()
     {
         Console.WriteLine("Horse is now walking");
+    }
+
+    public void RunWalk(string horseSpecies)
+    {
+        Console.WriteLine($"{horseSpecies} is now running.");
     }
 }
 
@@ -54,9 +59,13 @@ public class Pony : Horse
         Gender = gender;
     }
 
+    public override void RunWalk()
+    {
+        Console.WriteLine($"{HorseSpecies} is starting to walk.");
+    }
     public void EatSleep()
     {
-        Console.WriteLine("The Pony is ready for bed");
+        Console.WriteLine($"The Pony is ready for bed");
     }
 
     //public pony eat/sleep
