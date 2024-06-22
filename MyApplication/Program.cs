@@ -29,7 +29,7 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdate();
-Lesson11Example();
+// Lesson11Example();
 
 void Lesson11Example()
 {
@@ -310,11 +310,12 @@ void myLocalFunction()
 
 // Exercise 10 Lab
 
-// HorseExample();
-// BoatExample();
+HorseExample();
+//BoatExample();
 
 void HorseExample()
 {
+    
     // Calling Default
     Horse myHorse = new Horse();
     Console.WriteLine(myHorse.HorseSpecies);
@@ -324,6 +325,7 @@ void HorseExample()
     // Calling Constructor with 2 parameters
     Horse secondHorse = new Horse("short" , "Quarter Horse");
     Console.WriteLine(secondHorse.HorseSpecies);
+    Console.WriteLine(secondHorse.ManeStyle);
     Console.WriteLine();
 
     // Calling Constructor with all 3 parameters
@@ -331,6 +333,19 @@ void HorseExample()
     Console.WriteLine(thirdHorse.HorseSpecies);
     Console.WriteLine(thirdHorse.ManeStyle);
     Console.WriteLine(secondHorse.HorseJob);
+    Console.WriteLine();
+    
+    Pony pony = new Pony();
+    Console.WriteLine(pony.PonySizeHands);
+    Console.WriteLine(pony.HorseJob);
+    Console.WriteLine(pony.Gender);
+    Console.WriteLine(pony.ManeStyle);
+    Console.WriteLine();
+
+    Pony secondPony = new Pony("Short", "Show Pony", "Female");
+    Console.WriteLine(secondPony.HorseJob);
+    Console.WriteLine(secondPony.Gender);
+    Console.WriteLine(secondPony.HorseSpecies);
 }
 
 void BoatExample()
