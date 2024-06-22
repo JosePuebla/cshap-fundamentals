@@ -30,6 +30,26 @@ inside that member.
 // Lesson10Example();
 // HouseUpdate();
 // Lesson11Example();
+//Lesson12Example();
+CondoExample();
+
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Mainenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+}
 
 void Lesson11Example()
 {
@@ -310,8 +330,8 @@ void myLocalFunction()
 
 // Exercise 10 Lab
 
-HorseExample();
-//BoatExample();
+// HorseExample();
+// BoatExample();
 
 void HorseExample()
 {
