@@ -33,7 +33,7 @@ inside that member.
 // Lesson12Example();
 // CondoExample();
 // Lesson13Example();
-Lesson14Example();
+ // Lesson14Example();
 
 void Lesson14Example()
 {
@@ -41,10 +41,10 @@ void Lesson14Example()
     // myLesson14.SingleIntArray();
     //myLesson14.SingleHouseArray();
 
-    // myLesson14.MultiIntArray();
-    // myLesson14.MultiStringArray();
+    //myLesson14.MultiIntArray();
+     myLesson14.MultiStringArray();
 
-    myLesson14.JaggedArraySample();
+//    myLesson14.JaggedArraySample();
 }
 
 
@@ -356,6 +356,16 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+// Exercise 14 Arrays
+Exercise14Arrays();
+
+void Exercise14Arrays()
+{
+    Exercise14 arrays = new Exercise14();
+    //arrays.TaskOne();
+    arrays.TaskTwo();
+}
 
 // Exercise 13 lab test
 //Lab13Test();
