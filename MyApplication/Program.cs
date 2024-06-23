@@ -30,9 +30,9 @@ inside that member.
 // Lesson10Example();
 // HouseUpdate();
 // Lesson11Example();
-//Lesson12Example();
-//CondoExample();
-Lesson13Example();
+// Lesson12Example();
+// CondoExample();
+// Lesson13Example();
 
 void Lesson13Example()
 {
@@ -342,6 +342,18 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+// Exercise 13 lab test
+Lab13Test();
+
+void Lab13Test()
+{
+    DerivedBirds waterBird = new DerivedBirds(4);
+    Console.WriteLine(waterBird.Speed);
+    waterBird.Fly();
+    waterBird.Swim();
+
+}
 
 // Exercise 10 Lab
 
