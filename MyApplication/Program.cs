@@ -34,7 +34,7 @@ inside that member.
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
-Lesson15Example();
+// Lesson15Example();
 
 void Lesson15Example()
 {
@@ -370,6 +370,22 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+// Exercise 15 Enums & Tuples
+Exercise15Enums();
+
+void Exercise15Enums()
+{
+    Exercise15 enumTuples = new Exercise15();
+    string movies = enumTuples.TaskOneEnums(FavoriteMovies.Brave);
+    //Console.WriteLine(movies);
+
+    (int val1, string val2) = enumTuples.TaskTwo(FavoriteMovies.HowlsMovingCastle);
+    //Console.WriteLine(val1);
+    //Console.WriteLine();
+    //Console.WriteLine(val2);
+    Console.WriteLine($"My favorite movie is {val2}, and it is in position {val1}");
+}
 
 // Exercise 14 Arrays
 // Exercise14Arrays();
