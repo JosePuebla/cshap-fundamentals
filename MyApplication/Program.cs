@@ -35,7 +35,7 @@ inside that member.
 // Lesson13Example();
 // Lesson14Example();
 // Lesson15Example();
-Lesson16Example();
+// Lesson16Example();
 
 void Lesson16Example()
 {
@@ -378,6 +378,19 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+
+// Exercise 16 Collections
+// Exercise16Collections();
+
+void Exercise16Collections()
+{
+    Exercise16 collections = new Exercise16();
+    //collections.TaskOne();
+    collections.TaskTwo();
+}
+
+
 
 // Exercise 15 Enums & Tuples
 //Exercise15Enums();
