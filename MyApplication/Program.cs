@@ -36,6 +36,19 @@ inside that member.
 // Lesson14Example();
 // Lesson15Example();
 // Lesson16Example();
+Lesson17Example();
+
+void Lesson17Example()
+{
+    Lesson17 myLesson17 = new Lesson17();
+    House testHouse = null;
+    //myLesson17.MyThrowExample(testHouse);
+
+    //myLesson17.MyExceptionExample(testHouse);
+
+    myLesson17.MyArrayException();
+
+}
 
 void Lesson16Example()
 {
