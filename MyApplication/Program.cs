@@ -36,17 +36,20 @@ inside that member.
 // Lesson14Example();
 // Lesson15Example();
 // Lesson16Example();
-Lesson17Example();
+// Lesson17Example();
 
 void Lesson17Example()
 {
     Lesson17 myLesson17 = new Lesson17();
-    House testHouse = null;
-    //myLesson17.MyThrowExample(testHouse);
+   House testHouse = null;
+   House testhouse2 = new House();
+
+   myLesson17.MyThrowExample(testhouse2);
+   myLesson17.MyThrowExample(testHouse);
 
     //myLesson17.MyExceptionExample(testHouse);
 
-    myLesson17.MyArrayException();
+    //myLesson17.MyArrayException();
 
 }
 
@@ -391,6 +394,20 @@ void myLocalFunction()
 
 
 // Exercises / labs
+
+//Exercise17Labs();
+void Exercise17Labs()
+{
+    Exercise17 errors = new Exercise17();
+    //errors.DivisionTask(15, 0);
+
+    Horse nullType = null;
+    //errors.TaskTwo(nullType);
+
+    Horse nonNull = new Horse();
+    errors.TaskTwo(nonNull);
+
+}
 
 
 // Exercise 16 Collections
