@@ -5,7 +5,7 @@
  Encapsulation is the process of wrapping data and the code into
 a single unit.
  */
-internal class Lesson10
+public class Lesson10
 {
     private string _firstName;
     private string _address;
@@ -42,7 +42,8 @@ internal class Lesson10
     }
 
     // default constructor
-    public Lesson10() { }
+    public Lesson10() 
+        :this ("John", "Doe", 64082) { }
 
     // constructor using *this* with variables
     public Lesson10(string firstName, string lastName, int zipcode)
