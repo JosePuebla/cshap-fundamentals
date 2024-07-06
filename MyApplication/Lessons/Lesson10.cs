@@ -42,6 +42,10 @@ public class Lesson10
     }
 
     // default constructor
+    public Lesson10(int id)
+    {
+        Id = id;
+    }
     public Lesson10() 
         :this ("John", "Doe", 64082) { }
 
